@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "DIN Offc W02 Regular","Trebuchet MS","Lucida Grande",sans-serif;
+  font-size: 14px;
+  color: #424241;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+.board {
+  border: 1rem solid #f1592a;
+  background: #f1592a;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.squares {
+  background: #272727;
+  border: none;
+  font-size: 5rem;
+  /* font-weight: 800; */
+  cursor: pointer;
+  outline: none;
+}
+
+.X {
+  color: red;
+}
+.O {
+  color: green;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+/* vega btn */
+
+.text-module .btn:last-child {
+  margin-bottom: 0;
+}
+
+.text-module .btn {
+  margin-bottom: 30px;
+}
+.btn.btn-orange {
+  border-color: #f1592a;
+  color: #f1592a;
+}
+.btn {
+  display: inline-block;
+  border-radius: 20px;
+  border: 2pxsolid #424241;
+  height: 44px;
+  line-height: 40px;
+  padding: 0 25px;
+  color: #424241;
+  font-family: "Montserrat",Arial,"Helvetica Neue",sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* mycss */
+
+/* .logo {
+  width: 50px;
+  height: 30px;
+} */
+.hdr {
+  background: #f1592a !important;
+  color: white !important
+}
